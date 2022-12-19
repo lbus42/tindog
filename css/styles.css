@@ -55,10 +55,17 @@ p {
 	padding: 7% 15%;
 }
 
-/* TITLE SECTION */
-#title {
+/* SECTIONS */
+.colored-section {
 	background-color: #ff4c68;
 	color: #fff;
+}
+.white-section {
+	background-color: #fff;
+}
+
+/* TITLE SECTION */
+#title {
 	text-align: left;
 }
 #title .container-fluid {
@@ -89,10 +96,7 @@ p {
 
 /* FEATURES SECTION */
 #features {
-	background-color: #fff;
 	position: relative;
-}
-.features-box {
 }
 .features-icon {
 	color: #ef8172;
@@ -104,7 +108,6 @@ p {
 /* TESTIMONIALS SECTION */
 #testimonials {
 	background-color: #ef8172;
-	color: #fff;
 }
 .testimonial-img {
 	width: 20%;
@@ -124,27 +127,10 @@ p {
 	margin: 20px 20px 50px;
 }
 
-/* PRICING SECTION */
-#pricing {
-}
-.pricing-column {
-}
-
-/* CALL TO ACTION */
-#cta {
-	background-color: #ff4c68;
-	color: #fff;
-}
-
 /* FOOTER SECTION */
-#footer {
-	background-color: #fff;
-}
 .footer-text {
 	font-family: "Montserrat-Bold", sans-serif;
 	font-weight: 300;
-}
-.footer-icon {
 }
 
 @media (max-width: 1000px) {
